@@ -247,7 +247,7 @@
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 0) and (max-width: 1439px) {
+@media screen and (min-width: 0) and (max-width: 1157px) {
     .services {
         position: absolute;
         width: 1px;
