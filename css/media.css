@@ -5,6 +5,16 @@
     .modal {
         width: 392px;
     }
+    .customers-link {
+        padding: 16px 40px;
+    }
+    .menu-link-address-tel {
+        font-size: 36px;
+    }
+    .footer-input {
+        width: 398px; 
+    }
+
 }
 
 
@@ -148,6 +158,7 @@
  }
  .footer-input {
    margin: 0;
+   width: 264px;
  }
  .modal {
     max-width: 408px;
