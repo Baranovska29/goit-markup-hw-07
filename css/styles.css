@@ -121,7 +121,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 .menu-link-address-tel {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 36vw;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -133,7 +133,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20vw;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;

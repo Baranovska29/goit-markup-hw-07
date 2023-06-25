@@ -166,9 +166,14 @@
         padding-top: 24px;
         padding-bottom: 24px;
     }
+    .header-navigation {
+        padding: 0;
+    }
     .main {
-    background-image:
-    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+        padding-top: 188px;
+        padding-bottom: 188px;
+        background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     }
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -259,10 +264,5 @@
         clip-path: inset(100%);
         clip: rect(0 0 0 0); 
         overflow: hidden;
-    }
-}
-@media screen and (min-width: 0) and (max-width: 427px) {
-    .menu-link-address-tel {
-        font-size: 26px; 
     }
 }
