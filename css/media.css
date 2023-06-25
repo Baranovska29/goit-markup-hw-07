@@ -167,7 +167,8 @@
         padding-bottom: 24px;
     }
     .header-navigation {
-        padding: 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
     .main {
         padding-top: 188px;
