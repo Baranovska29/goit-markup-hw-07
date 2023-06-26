@@ -120,6 +120,9 @@
         line-height: 1.07;
         max-width: 496px;
     }
+    .wrapper-list-title {
+        text-align: justify;
+    }
     .wrapper-soc-list {
         gap: 72px 24px;
    }
@@ -232,7 +235,11 @@
 
     .team-block {
         width: calc((100% - 24px) / 4);
+        margin-bottom: 0;
        }
+    .team-block:last-child {
+        margin-bottom: 0;
+       } 
        .team-list {
         flex-wrap: nowrap;
        }
