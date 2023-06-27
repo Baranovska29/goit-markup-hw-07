@@ -135,14 +135,14 @@
    .team-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
    }
    .team-block {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
    }
-   .team-block:last-child {
-    margin-bottom: 72px;
-    }
+   
     .customers-container {
         padding-left: 0;
         padding-right: 0;
@@ -237,9 +237,6 @@
         width: calc((100% - 24px) / 4);
         margin-bottom: 0;
        }
-    .team-block:last-child {
-        margin-bottom: 0;
-       } 
        .team-list {
         flex-wrap: nowrap;
        }
